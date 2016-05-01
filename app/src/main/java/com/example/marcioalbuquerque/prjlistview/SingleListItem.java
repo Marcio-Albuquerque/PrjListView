@@ -10,6 +10,7 @@ public class SingleListItem extends AppCompatActivity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         this.setContentView(R.layout.single_list_item_view);
         TextView txtPais = (TextView) findViewById(R.id.pais_label);
         Intent i = getIntent();
